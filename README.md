@@ -11,6 +11,10 @@
 
 本仓库旨在组织、复现和共享常用的分析流程，便于长期维护与协作。
 
+## AI 科研 Skills
+
+已整理光谱分析、通用数据探索与统计、科研绘图、办公文件和图片生成共七个 skill，位于 `.agents/skills/`。查看 [安装与使用说明](docs/research-skills.md)；其中四个来自 K-Dense 的 MIT 许可 GitHub 仓库，三个为本项目定制。Skill 文件用于指导 AI 工作，不等于已安装 Python 依赖或自动完成分析。
+
 ## 目录（示例）
 - `data/` — 原始与示例数据（通常不直接提交大型原始文件）
 - `notebooks/` — Jupyter 笔记本，用于交互式分析与可视化
@@ -117,3 +121,4 @@ GitHub: https://github.com/XIANGCUICNU
 - 把 README.md 直接提交到 `XIANGCUICNU/study` 仓库（需要确认并授权我进行写操作），
 - 或根据你的具体脚本/目录结构把 README 中的示例命令改成与你当前代码一致的版本，
 - 也可以帮你生成 `requirements.txt`、SLURM 模板脚本或 `fit_spectrum.py` 的示例实现。
+
