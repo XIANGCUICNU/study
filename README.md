@@ -11,6 +11,15 @@
 
 本仓库旨在组织、复现和共享常用的分析流程，便于长期维护与协作。
 
+
+## 科研工作汇报风格 Skill
+
+- [崔翔科研工作汇报](skills/cui-research-progress-report/SKILL.md)：基于个人科研工作汇报提炼，用于本周进展、实验与计算、文章图更新及后续计划。
+- 调用：`使用 $cui-research-progress-report，按我的科研工作汇报风格整理以下本周材料，输出逐页提纲与简洁讲稿。`
+- 与党团宣讲、行政总结、公众科普、答辩及其他风格分开；默认仅显式调用，不修改全局写作偏好。
+- [调用示例与隔离提示词](skills/cui-research-progress-report/references/prompts-and-patterns.md) · [风格依据与页码](skills/cui-research-progress-report/references/style-evidence.md)
+- 本 skill 仅保存风格规则与依据索引，不包含原始 PPT、未发表分子图片或实验数据。
+
 ## 目录（示例）
 - `data/` — 原始与示例数据（通常不直接提交大型原始文件）
 - `notebooks/` — Jupyter 笔记本，用于交互式分析与可视化
