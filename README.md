@@ -12,6 +12,10 @@
 本仓库旨在组织、复现和共享常用的分析流程，便于长期维护与协作。
 
 
+## AI 科研 Skills
+
+已整理光谱分析、通用数据探索与统计、科研绘图、办公文件和图片生成共七个 skill，位于 `.agents/skills/`。查看 [安装与使用说明](docs/research-skills.md)；其中四个来自 K-Dense 的 MIT 许可 GitHub 仓库，三个为本项目定制。Skill 文件用于指导 AI 工作，不等于已安装 Python 依赖或自动完成分析。
+
 ## 科研工作汇报风格 Skill
 
 - [崔翔科研工作汇报](skills/cui-research-progress-report/SKILL.md)：基于个人科研工作汇报提炼，用于本周进展、实验与计算、文章图更新及后续计划。

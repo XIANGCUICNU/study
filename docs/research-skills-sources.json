@@ -1,0 +1,206 @@
+{
+  "retrieved_date": "2026-10-14",
+  "upstream": {
+    "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "license": ".agents/skills/K-DENSE-LICENSE.md",
+    "files": [
+      {
+        "source": "skills/exploratory-data-analysis/SKILL.md",
+        "dest": ".agents/skills/exploratory-data-analysis/SKILL.md",
+        "sha": "c461f99dea057872298ce6f04e7c090a83d80d01"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/assets/report_template.md",
+        "dest": ".agents/skills/exploratory-data-analysis/assets/report_template.md",
+        "sha": "cf651d8d360f702230d03c124a2ff0f5b2e2e97c"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/references/bioinformatics_genomics_formats.md",
+        "dest": ".agents/skills/exploratory-data-analysis/references/bioinformatics_genomics_formats.md",
+        "sha": "c82fb3679a4e7db3be07bf11c98666166e9b4605"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/references/chemistry_molecular_formats.md",
+        "dest": ".agents/skills/exploratory-data-analysis/references/chemistry_molecular_formats.md",
+        "sha": "40d5dff9437c596e79bf53d98ce5135e8d1bec49"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/references/general_scientific_formats.md",
+        "dest": ".agents/skills/exploratory-data-analysis/references/general_scientific_formats.md",
+        "sha": "1fcfd35ac18b2caa932ca2009b987ae0b1261550"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/references/microscopy_imaging_formats.md",
+        "dest": ".agents/skills/exploratory-data-analysis/references/microscopy_imaging_formats.md",
+        "sha": "4159a6bd6aaeddbc5147b9e71ade65359fce13b2"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/references/proteomics_metabolomics_formats.md",
+        "dest": ".agents/skills/exploratory-data-analysis/references/proteomics_metabolomics_formats.md",
+        "sha": "f04246379bca90d2a8bf0e27633da55dfd276596"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/references/spectroscopy_analytical_formats.md",
+        "dest": ".agents/skills/exploratory-data-analysis/references/spectroscopy_analytical_formats.md",
+        "sha": "429ddc84592a6deee21c13b69d6ae16eefa972d3"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/scripts/__init__.py",
+        "dest": ".agents/skills/exploratory-data-analysis/scripts/__init__.py",
+        "sha": "7fb9dd8fa120dd2d00eb2be0c5a4c1c4349c908a"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/scripts/_capabilities.py",
+        "dest": ".agents/skills/exploratory-data-analysis/scripts/_capabilities.py",
+        "sha": "9aa1327f23a58324baabb777c98a01b577787fa1"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/scripts/_common.py",
+        "dest": ".agents/skills/exploratory-data-analysis/scripts/_common.py",
+        "sha": "d098fc4e0acf3a0f67c8a4f6596ba69e29388b1b"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/scripts/_structured.py",
+        "dest": ".agents/skills/exploratory-data-analysis/scripts/_structured.py",
+        "sha": "714ec59a5d187359c0a329c3d81b5b3196af9ee9"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/scripts/_tabular.py",
+        "dest": ".agents/skills/exploratory-data-analysis/scripts/_tabular.py",
+        "sha": "5311d1a9aef4995210442792e6a75221e8ad60f1"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/scripts/capability_manifest.py",
+        "dest": ".agents/skills/exploratory-data-analysis/scripts/capability_manifest.py",
+        "sha": "a1ee36326ea6889b38428714283ce2f4952db461"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/scripts/distribution_sensitivity.py",
+        "dest": ".agents/skills/exploratory-data-analysis/scripts/distribution_sensitivity.py",
+        "sha": "f8db91f4b7391152ae2b808387d67543bf52bb38"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/scripts/eda_analyzer.py",
+        "dest": ".agents/skills/exploratory-data-analysis/scripts/eda_analyzer.py",
+        "sha": "40781abbc7879354c3430fc6f35ebad2331f195e"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/scripts/image_inspector.py",
+        "dest": ".agents/skills/exploratory-data-analysis/scripts/image_inspector.py",
+        "sha": "a051fd39b64f3d511e3b764eda78b9f72d776db4"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/scripts/missingness_leakage_audit.py",
+        "dest": ".agents/skills/exploratory-data-analysis/scripts/missingness_leakage_audit.py",
+        "sha": "af3f1e98588547674dbfc6bc56644fe749b747c8"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/scripts/report_scaffold.py",
+        "dest": ".agents/skills/exploratory-data-analysis/scripts/report_scaffold.py",
+        "sha": "a816e5f422078b7fddbe6bd4c465422c9a5ea651"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/scripts/sequence_inspector.py",
+        "dest": ".agents/skills/exploratory-data-analysis/scripts/sequence_inspector.py",
+        "sha": "66e985e15ef369ba26cbdd65cc2a6ec4460d7a0c"
+      },
+      {
+        "source": "skills/exploratory-data-analysis/scripts/tabular_profile.py",
+        "dest": ".agents/skills/exploratory-data-analysis/scripts/tabular_profile.py",
+        "sha": "874ef86b871eb72b8f95a87cfc4cad29f72be148"
+      },
+      {
+        "source": "skills/generate-image/SKILL.md",
+        "dest": ".agents/skills/generate-image/SKILL.md",
+        "sha": "7389c55a049c9dd6ef62fccbe89f23786a3d11ef"
+      },
+      {
+        "source": "skills/generate-image/references/models.md",
+        "dest": ".agents/skills/generate-image/references/models.md",
+        "sha": "40abae0036005529c72c7e6b1a26eb5d1041fef4"
+      },
+      {
+        "source": "skills/generate-image/scripts/generate_image.py",
+        "dest": ".agents/skills/generate-image/scripts/generate_image.py",
+        "sha": "03567a8d261a7de4bb8e7fb4e8fee3f2bb179506"
+      },
+      {
+        "source": "skills/scientific-schematics/SKILL.md",
+        "dest": ".agents/skills/scientific-schematics/SKILL.md",
+        "sha": "5f2ff1b3f73818b05c649438e71f50961d01f2eb"
+      },
+      {
+        "source": "skills/scientific-schematics/references/best_practices.md",
+        "dest": ".agents/skills/scientific-schematics/references/best_practices.md",
+        "sha": "86d326e4afb010ec2aa11d2d6c29bdc4c881d8dd"
+      },
+      {
+        "source": "skills/scientific-schematics/references/iterative_refinement.md",
+        "dest": ".agents/skills/scientific-schematics/references/iterative_refinement.md",
+        "sha": "ff238a91286a2975109c498a849c6a066bf6d0af"
+      },
+      {
+        "source": "skills/scientific-schematics/scripts/example_usage.sh",
+        "dest": ".agents/skills/scientific-schematics/scripts/example_usage.sh",
+        "sha": "b321f6861f0308a3a88cad7a923681ba2d9bd28c"
+      },
+      {
+        "source": "skills/scientific-schematics/scripts/generate_schematic.py",
+        "dest": ".agents/skills/scientific-schematics/scripts/generate_schematic.py",
+        "sha": "10aacec40261d1dfb4c51c406e1d12590ab865bb"
+      },
+      {
+        "source": "skills/scientific-schematics/scripts/generate_schematic_ai.py",
+        "dest": ".agents/skills/scientific-schematics/scripts/generate_schematic_ai.py",
+        "sha": "a7f586678624e23fb70b271188b70fa539d8fc99"
+      },
+      {
+        "source": "skills/statistical-analysis/SKILL.md",
+        "dest": ".agents/skills/statistical-analysis/SKILL.md",
+        "sha": "4ea7453a12e63f0dbc31d7a47ed41fe3ff4c4c1a"
+      },
+      {
+        "source": "skills/statistical-analysis/references/assumptions_and_diagnostics.md",
+        "dest": ".agents/skills/statistical-analysis/references/assumptions_and_diagnostics.md",
+        "sha": "08fa85f9709297dcad84bfbb138b94df7692685c"
+      },
+      {
+        "source": "skills/statistical-analysis/references/bayesian_statistics.md",
+        "dest": ".agents/skills/statistical-analysis/references/bayesian_statistics.md",
+        "sha": "e78e65e190fd3a68034f0e1b1706383eb0888022"
+      },
+      {
+        "source": "skills/statistical-analysis/references/effect_sizes_and_power.md",
+        "dest": ".agents/skills/statistical-analysis/references/effect_sizes_and_power.md",
+        "sha": "44d0c74e9d9d416485b2d7a8f56010494d907bcc"
+      },
+      {
+        "source": "skills/statistical-analysis/references/reporting_standards.md",
+        "dest": ".agents/skills/statistical-analysis/references/reporting_standards.md",
+        "sha": "38e0ccd4b1d835504f70a1cea3a6526667fe890a"
+      },
+      {
+        "source": "skills/statistical-analysis/references/test_selection_guide.md",
+        "dest": ".agents/skills/statistical-analysis/references/test_selection_guide.md",
+        "sha": "c518d9e57aee5f8713d153cdc6fe154a9293a9e7"
+      },
+      {
+        "source": "skills/statistical-analysis/scripts/assumption_checks.py",
+        "dest": ".agents/skills/statistical-analysis/scripts/assumption_checks.py",
+        "sha": "a55993050ec75027fc7e9b465b4c0b718548b198"
+      },
+      {
+        "source": "LICENSE.md",
+        "dest": ".agents/skills/K-DENSE-LICENSE.md",
+        "sha": "eb246475fd5a66b9bb56176f3a718984632dd98d"
+      }
+    ]
+  },
+  "project_skills": [
+    "spectroscopy-analysis",
+    "research-plotting",
+    "research-office"
+  ],
+  "notes": "Upstream files are unmodified snapshots. Project skills are newly authored instructions, not upstream copies."
+}

@@ -1,0 +1,9 @@
+# Local environments and generated Python cache
+.venv-research/
+.venv-statistics/
+__pycache__/
+*.py[cod]
+# Local API configuration
+.env
+.env.*
+!.env.example

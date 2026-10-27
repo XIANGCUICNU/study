@@ -1,0 +1,15 @@
+# Local spectroscopy, plotting, and office helpers. Python 3.12 recommended.
+# This is a starting dependency list, not a reproducibility lockfile.
+# Upstream statistical-analysis documents its own isolated pinned environment.
+numpy
+scipy
+pandas
+matplotlib
+openpyxl
+python-docx
+python-pptx
+pypdf
+pdfplumber
+reportlab
+# Used by the optional scientific-schematics API helper.
+requests
