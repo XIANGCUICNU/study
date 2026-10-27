@@ -11,9 +11,18 @@
 
 本仓库旨在组织、复现和共享常用的分析流程，便于长期维护与协作。
 
+
 ## AI 科研 Skills
 
 已整理光谱分析、通用数据探索与统计、科研绘图、办公文件和图片生成共七个 skill，位于 `.agents/skills/`。查看 [安装与使用说明](docs/research-skills.md)；其中四个来自 K-Dense 的 MIT 许可 GitHub 仓库，三个为本项目定制。Skill 文件用于指导 AI 工作，不等于已安装 Python 依赖或自动完成分析。
+
+## 科研工作汇报风格 Skill
+
+- [崔翔科研工作汇报](skills/cui-research-progress-report/SKILL.md)：基于个人科研工作汇报提炼，用于本周进展、实验与计算、文章图更新及后续计划。
+- 调用：`使用 $cui-research-progress-report，按我的科研工作汇报风格整理以下本周材料，输出逐页提纲与简洁讲稿。`
+- 与党团宣讲、行政总结、公众科普、答辩及其他风格分开；默认仅显式调用，不修改全局写作偏好。
+- [调用示例与隔离提示词](skills/cui-research-progress-report/references/prompts-and-patterns.md) · [风格依据与页码](skills/cui-research-progress-report/references/style-evidence.md)
+- 本 skill 仅保存风格规则与依据索引，不包含原始 PPT、未发表分子图片或实验数据。
 
 ## 目录（示例）
 - `data/` — 原始与示例数据（通常不直接提交大型原始文件）
@@ -121,4 +130,3 @@ GitHub: https://github.com/XIANGCUICNU
 - 把 README.md 直接提交到 `XIANGCUICNU/study` 仓库（需要确认并授权我进行写操作），
 - 或根据你的具体脚本/目录结构把 README 中的示例命令改成与你当前代码一致的版本，
 - 也可以帮你生成 `requirements.txt`、SLURM 模板脚本或 `fit_spectrum.py` 的示例实现。
-
