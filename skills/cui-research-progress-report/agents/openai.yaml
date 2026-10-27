@@ -1,0 +1,6 @@
+interface:
+  display_name: "崔翔科研工作汇报"
+  short_description: "按崔翔科研组会习惯组织工作进展、计算与实验结果，独立于宣讲风格"
+  default_prompt: "使用 $cui-research-progress-report，按我的科研工作汇报风格整理本周进展，输出逐页提纲与简洁讲稿。"
+policy:
+  allow_implicit_invocation: false
