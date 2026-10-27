@@ -1,0 +1,6 @@
+interface:
+  display_name: "崔翔科研文献汇报"
+  short_description: "按崔翔组会习惯用研究问题串联图表、实验手段与机制证据，生成简洁文献汇报"
+  default_prompt: "使用 $cui-literature-presentation，按我的文献汇报风格整理这篇论文，输出逐页提纲和简洁讲稿。"
+policy:
+  allow_implicit_invocation: false
