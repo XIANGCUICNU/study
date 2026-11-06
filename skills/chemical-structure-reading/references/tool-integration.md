@@ -69,7 +69,11 @@ Draw.MolToFile(mol, "candidate.png")
 - [ChemLint](https://github.com/molML/ChemLint)：MCP 工具适合分子数据标准化、去重、描述符和数据质量检查。采用前确认服务和客户端已连接；它不负责从图片提取结构，不能替代原图核对。
 - [Google Cheminformatics Skills](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/) 面向 Antigravity 的化学工作台；不要假设其工具或技能已安装在本仓库或其他客户端。
 
-## 5. 交付给论文精读
+## 5. 可选的 ECNU-ChemGPT 下游分析
+
+[ECNU-ChemGPT](https://github.com/ilog-ecnu/ECNU-ChemGPT) 提供化学问答和逆合成相关代码；其 Retro 示例使用带反应类别标记的 SMILES，不能取代图片识别。仅在用户需要化学问答或路线讨论、且已配置相应模型时使用。输入先经原图及 SI 核对；保存模型版本、输入、类别标记和候选输出。逆合成预测是待检验假设，不是已验证条件或论文实际路线。未明确类别、权重、接口或运行环境时报告缺失，不猜测输入格式或声称已运行。QA 72B 需评估硬件；本 skill 不包含模型权重。仓库示例路径和 GPU 设置需要适配。
+
+## 6. 交付给论文精读
 
 对每个化合物交付：编号和图/页码；原图与候选结构；变量定义；已识别、解析、原图/SI 核对三种状态；工具与版本；仍存疑的原子/键；相对其他化合物的结构差异。论文精读再核对作者提出的设计、实测和计算，分别标注出处。无法确认的结构不得用于确定性结构–性质结论。
 
